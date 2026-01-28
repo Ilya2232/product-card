@@ -8,9 +8,6 @@ body {
   background-color: #ffffff;
   padding: 50px 20px;
   font-family: Montserrat;
-}
-
-.title-container {
   background-image: url('images/background-picture.png');
   background-repeat: no-repeat;
   background-position: top left;
