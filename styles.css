@@ -8,18 +8,27 @@ body {
   background-color: #ffffff;
   padding: 50px 20px;
   font-family: Montserrat;
-  background-image: url('images/background-picture.png');
-  background-repeat: no-repeat;
-  background-position: top left;
-  background-attachment: fixed;
-  background-size: contain;
+
 }
+
+.background-picture {
+  position: fixed;
+  top: 0;
+  left: 235px;
+  z-index: -1;
+  width: 800px;
+  pointer-events: none;
+}
+
+
+
 
 .main-title {
   text-align: center;
   font-size: 64px;
   font-weight: 400;
   color: #4a5568;
+  margin-top: 200px;
   margin-bottom: 60px;
 }
 
@@ -27,9 +36,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 140px;
 }
 
 .product-card {
