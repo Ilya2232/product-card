@@ -12,16 +12,13 @@ body {
 }
 
 .background-picture {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 235px;
   z-index: -1;
   width: 800px;
   pointer-events: none;
 }
-
-
-
 
 .main-title {
   text-align: center;
