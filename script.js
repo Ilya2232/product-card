@@ -4,8 +4,8 @@ mainTitle.addEventListener('mouseover', () => {
   console.log(mainTitle.textContent)
 })
 
-const toggleButton = document.querySelector('.toggle-button');
+const colorToggleButton = document.querySelector('.toggle-button');
 
-toggleButton.addEventListener('click', () => {
-  toggleButton.classList.toggle('switch-color');
+colorToggleButton.addEventListener('click', () => {
+  colorToggleButton.classList.toggle('switch-color');
 })
